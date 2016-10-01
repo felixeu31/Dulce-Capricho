@@ -1,0 +1,201 @@
+body {
+background-color: #EDEDED;
+color: #000305;
+font-size: 87.5%; 
+font-family: helvetica;
+line-height: 1;
+text-align: center;
+margin: 0 auto;
+width: 100%;
+clear: both;
+}
+
+a, a:hover {
+text-decoration: none;
+}
+
+/*------------Debbuging---------------*/
+.border {
+border: 1px solid black;
+}
+
+/*------------Global Class---------------*/
+.section-content{
+width: 100%;
+margin: 0 auto;
+height: auto;
+padding: 10px 0px;
+}
+.row-content{
+width: 70%;
+margin: 0 auto;
+height: auto;
+position: relative;
+content: "";
+display: table;
+clear: both;
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/*------------General contents--------------*/
+#main-header {
+background: url("../img/naranja.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 50px;
+}
+#content1 {
+background: url("../img/gris.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#content2 {
+background: url("../img/naranja.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+height: 500px;
+}
+#content-maps{
+background: url("../img/gris.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#main-footer {
+background: url("../img/naranja.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+/*------------Header---------------*/
+#icon {
+height: 120px;
+width: auto;
+}
+#main-header nav {
+margin: 30px auto 10px auto;
+height: 50px;
+}
+	#main-header nav ul{
+	margin: auto auto;	
+	list-style: none;
+	vertical-align: middle;
+	}
+	#main-header nav ul li{
+	display: inline;
+	font-size: 15px;
+	vertical-align: center;
+	}
+	#main-header nav a:link, #main-header nav a:visited{
+	color: white;
+	display: inline-block;
+	padding: 5px	20px;
+	
+	}
+	#main-header nav a:hover, #main-header nav a:active,
+	#main-header nav .active a:link{
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 35px;
+	text-shadow: none;
+	text-decoration: none;
+	}
+	
+
+
+/*------------Footer-------------*/
+#topfooter{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#topfooter1{
+	text-align: left;
+}
+#topfooter3{
+	text-align: right;
+}
+#bottomfooter{
+	color: black;
+	font-size: 85%;
+}
+/*------------Content 1-------------*/
+#img2 {
+margin: 40px 0px 80px 0px;
+height: 300px;
+width: auto;
+}
+#mainContent1 {
+background: url("../img/gris.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 20px;
+padding-bottom: 300px;
+margin: 0px auto;
+}
+
+.content1Container{
+width: 65%;
+margin: 100px auto;S
+}
+.topContent1 {
+margin: 0 auto;
+color: black;
+font-size: 300%;
+}
+.bottomContent1 {
+margin: 0 auto;
+margin-top: 10px;
+color: black;
+font-size: 150%;
+}
+/*------------Footer Content---------------*/
+#footer-nav{
+	float:right;	
+}
+#footer-text{
+	float:left;
+	font-size: 80%;
+	text-align: left;
+}
+/*------------Header Navigation Bar---------------*/
+
+/*------------Footer Navigation Bar---------------*/
+#main-footer nav {
+float: right;
+}
+#main-footer nav ul{
+list-style: none;
+margin: 0 auto;
+
+}
+#main-footer nav ul li{
+float:left;
+display: inline;
+font-size: 80%;
+}
+#main-footer nav a:link, #main-footer nav a:visited{
+color: white;
+display: inline-block;
+padding: 5px	15px;
+height: 15px;
+}
+#main-footer nav a:hover, #main-footer nav a:active,
+#main-footer nav .active a:link{
+border: 1px solid white;
+border-radius: 15px;
+text-shadow: none;
+font-size: 120%;
+}
+#main-footer nav ul li a {
+border-radius: 5px;
+}
+
+
+
